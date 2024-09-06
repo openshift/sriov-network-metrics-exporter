@@ -1,6 +1,6 @@
 module github.com/k8snetworkplumbingwg/sriov-network-metrics-exporter
 
-go 1.18
+go 1.21
 
 require (
 	github.com/hashicorp/go-version v1.6.0
