@@ -5,7 +5,7 @@ COPY . .
 
 RUN make clean && GO_TAGS="" GO_BUILD_OPTS=CGO_ENABLED=1 make build
 
-FROM registry.ci.openshift.org/ocp/4.22:base-rhel9
+FROM registry.ci.openshift.org/ocp/4.22:base-rhel9-minimal
 LABEL io.k8s.display-name="OpenShift SR-IOV Network Metrics Exporter-operator"
 LABEL io.k8s.description="This component exports metrics related to VF configured through the SR-IOV network operator."
 
