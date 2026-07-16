@@ -4,13 +4,17 @@ reviewers:
   - wizhaoredhat
   - bn222
   - vrindle
-  - SalDaniele
+  - SamD2021
+  - pablmart
+  - zhiqiangf
 approvers:
   - SchSeba
   - zeeke
   - wizhaoredhat
   - bn222
   - vrindle
-  - SalDaniele
+  - SamD2021
+  - pablmart
+  - zhiqiangf
 component: "Networking"
 subcomponent: "SR-IOV"
